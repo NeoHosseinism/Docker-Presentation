@@ -12,8 +12,6 @@ In this presentation, we will explore the fundamental concepts of Docker, includ
 
 This markdown file serves as a comprehensive guide, helping you to better understand Docker and its significance in cloud computing. I hope you find it useful as we dive into the world of containerization!
 
-
-
 این دستورات عملکردهای اساسی مورد نیاز برای کار با کانتینرها، ایمیج، ولوم‌ها، شبکه‌ها و دیگر اجزای داکر را پوشش می‌دهند. شنایی با این دستورات به شما کمک می‌کند تا برنامه‌های Dockerized را به‌طور مثر بسازید، مستقر کنید و مدیریت کنید.
 
 
@@ -969,3 +967,29 @@ Deletes a secret.
 یک Secret را حذف می‌کند.
 
 ---
+
+
+## Utility Information
+
+### The VPS:
+| **Property**   | **Value**               |
+|----------------|-------------------------|
+| **IPv4**       | 87.107.155.76           |
+| **SSH Port**   | 9011                    |
+| **OS**         | Linux (Ubuntu 24.0)     |
+| **Username**    | root                    |
+| **Password**   | QNiuo2jsx0             |
+
+### The DNS:
+
+| **Property**   | **Value**               |
+|----------------|-------------------------|
+| **First IP**   | 87.107.155.76           |
+| **Second IP**  | 9011                    |
+| **URL**        | [403.online](https://403.online/)|
+
+### The directory for set DNS in Ubuntu (netplan):
+  
+  ```bash
+  /etc/netplan/50-cloud-init.yaml
+  ```
