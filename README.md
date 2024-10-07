@@ -984,8 +984,8 @@ Deletes a secret.
 
 | **Property**   | **Value**               |
 |----------------|-------------------------|
-| **First IP**   | 87.107.155.76           |
-| **Second IP**  | 9011                    |
+| **First IP**   | 10.202.10.202           |
+| **Second IP**  | 10.202.10.102                    |
 | **URL**        | [403.online](https://403.online/)|
 
 ### The directory for set DNS in Ubuntu (netplan):
