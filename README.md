@@ -990,6 +990,11 @@ Deletes a secret.
 
 ### The directory for set DNS in Ubuntu (netplan):
   
-  ```bash
-  /etc/netplan/50-cloud-init.yaml
-  ```
+```bash
+/etc/netplan/50-cloud-init.yaml
+```
+
+### Generating SSH Key on windows:
+```bash
+ssh-keygen -t rsa -b 4096 -C "{your-name}" -f C:\Users\Huseyn\.ssh\{key-name}
+```
